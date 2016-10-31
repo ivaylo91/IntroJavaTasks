@@ -1,7 +1,7 @@
 package intro.java.tasks.math;
 
 /**
- * Created by ivaylo on 10/31/16.
+ * @author Ivaylo Penev(ipenev91@gmail.com) on 10/31/16.
  */
 public class Demo {
     public static void main(String[] args) {
