@@ -1,0 +1,21 @@
+package reversearray;
+
+/**
+ * Created by ivaylo on 10/31/16.
+ */
+public class ReverseArray {
+
+
+    public int[] reverse_arr(int[] arr) {
+
+        for (int i = 0; i < arr.length / 2; i++) {
+
+            int temp = arr[i];
+
+            arr[i] = arr[arr.length - i - 1];
+
+            arr[arr.length - i - 1] = temp;
+        }
+        return arr;
+    }
+}
