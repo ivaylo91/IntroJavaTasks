@@ -3,7 +3,7 @@ package intro.java.tasks.generateString;
 import java.util.Random;
 
 /**
- * Created by ivaylo on 10/31/16.
+ * @author Ivaylo Penev(ipenev91@gmail.com)
  */
 public class StringGenerator {
 
