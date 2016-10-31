@@ -13,6 +13,6 @@ public class Demo {
 
         System.out.println("Sum of elements of array is:" + arr.sumOfArraysElements(new int[]{45, 15, 18, 34, 8, 22, 17}));
 
-        arr.printElements(new int[]{45, 15, 18, 34, 8, 22, 17}));
+        arr.printElements(new int[]{45, 15, 18, 34, 8, 22, 17});
     }
 }
