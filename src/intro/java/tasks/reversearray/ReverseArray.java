@@ -1,4 +1,4 @@
-package reversearray;
+package intro.java.tasks.reversearray;
 
 /**
  * Created by ivaylo on 10/31/16.

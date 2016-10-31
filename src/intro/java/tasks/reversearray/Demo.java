@@ -1,4 +1,4 @@
-package reversearray;
+package intro.java.tasks.reversearray;
 
 import java.util.Arrays;
 
