@@ -9,7 +9,6 @@ public class Demo {
 
         Sumator sumator = new Sumator();
 
-        //Sum two integers
 
         System.out.println("Sum of Integer numbers:" + sumator.sum(1, 2));
         System.out.println("Sum of Double numbers:" + sumator.sum(2.0, 3.0));
