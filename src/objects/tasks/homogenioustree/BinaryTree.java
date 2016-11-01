@@ -1,4 +1,4 @@
-package objects.tasks.homgenioustree;
+package objects.tasks.homogenioustree;
 
 /**
  * @author Ivaylo Penev(ipenev91@gmail.com) on 11/1/16.
