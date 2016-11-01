@@ -3,7 +3,7 @@ package objects.tasks.heterogenioustree;
 import java.util.Objects;
 
 /**
- * @author Ivaylo Penev on 11/1/16.
+ * @author Ivaylo Penev(ipenev91@gmail.com) on 11/1/16.
  */
 public class Node {
 
