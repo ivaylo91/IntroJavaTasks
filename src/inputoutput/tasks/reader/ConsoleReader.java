@@ -45,7 +45,7 @@ public class ConsoleReader {
     /**
      *
      * @return  Char symbol which is read from user input.
-     * @throws IOException if user cannot input character value.
+     * @throws IOException if input is invalid throw exception.
      */
     public char readChar() throws IOException{
 
@@ -54,7 +54,7 @@ public class ConsoleReader {
             return input.next().charAt(0);
         } else{
 
-            throw new InputMismatchException("Invalid input from console.Please try again.");
+            throw new InputMismatchException("Invalid input");
         }
     }
 }
