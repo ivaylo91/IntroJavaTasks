@@ -3,7 +3,7 @@ package exceptions.tasks.consolereader;
 import java.util.*;
 
 /**
- * @author Ivaylo Penev(ipenev91@gmail.com).
+ * @author Ivaylo Penev(ipenev91@gmail.com)
  */
 public class Demo {
 
