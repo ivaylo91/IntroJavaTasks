@@ -3,7 +3,7 @@ package inputoutput.tasks.reversecontent;
 import java.io.IOException;
 
 /**
- * Created by ivaylo on 11/14/16.
+ * @author Ivaylo Penev(ipenev91@gmail.com)
  */
 public class App {
 
