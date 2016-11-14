@@ -12,12 +12,19 @@ public class ListOfObjects {
     private int size;
     private int index;
 
+    /**
+     * @param size is a size of list of Object.
+     */
+
     public ListOfObjects(int size) {
 
         this.list = new Object[size];
         this.size = size;
     }
 
+    /**
+     * @param object is a element of list which add.
+     */
     public void add(Object object) {
 
         if (index > list.length) {
@@ -29,6 +36,8 @@ public class ListOfObjects {
             index++;
         }
     }
+
+    //remove last element of list
 
     public void remove() {
 
@@ -44,6 +53,9 @@ public class ListOfObjects {
         }
     }
 
+    /**
+     * Use a lambda expression to print all elemtents of list;
+     */
     public void printAllElements() {
 
         Arrays.stream(list).forEach(System.out::println);
