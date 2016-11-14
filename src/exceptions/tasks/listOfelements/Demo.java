@@ -13,7 +13,9 @@ public class Demo {
         listOfObjects.add("Gosho");
         listOfObjects.add(2.45);
 
-        System.out.println(listOfObjects.printAllElements());
+        listOfObjects.remove();
+
+        listOfObjects.printAllElements();
 
     }
 }

@@ -1,6 +1,7 @@
 package exceptions.tasks.listOfelements;
 
 import java.util.Arrays;
+import java.util.concurrent.SynchronousQueue;
 
 /**
  * @author Ivaylo Penev(ipenev91@gmail.com)
@@ -36,13 +37,15 @@ public class ListOfObjects {
             throw new RuntimeException("List is empty");
 
         } else {
+
             index--;
+
             list[index] = null;
         }
     }
 
-    public Object printAllElements() {
+    public void printAllElements() {
 
-        return Arrays.toString(list);
+        Arrays.stream(list).forEach(System.out::println);
     }
 }
