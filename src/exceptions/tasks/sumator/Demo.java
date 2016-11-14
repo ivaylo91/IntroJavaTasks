@@ -1,8 +1,5 @@
-package exceptions.tasks.symator;
+package exceptions.tasks.sumator;
 
-import com.sun.javaws.exceptions.InvalidArgumentException;
-
-import java.util.IllegalFormatException;
 import java.util.Scanner;
 
 /**

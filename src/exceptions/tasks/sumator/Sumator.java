@@ -1,7 +1,4 @@
-package exceptions.tasks.symator;
-
-import com.sun.javaws.exceptions.InvalidArgumentException;
-import com.sun.xml.internal.ws.api.message.ExceptionHasMessage;
+package exceptions.tasks.sumator;
 
 /**
  * @author Ivaylo Penev(ipenev91@gmail.com).
