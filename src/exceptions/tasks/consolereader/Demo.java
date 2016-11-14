@@ -2,9 +2,8 @@ package exceptions.tasks.consolereader;
 
 import java.util.*;
 
-
 /**
- * Created by ivaylo on 11/14/16.
+ * @author Ivaylo Penev(ipenev91@gmail.com).
  */
 public class Demo {
 
