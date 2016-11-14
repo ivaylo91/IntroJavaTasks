@@ -20,22 +20,20 @@ public class FileContentWriter {
 
         FileWriter fw = new FileWriter(dest);
 
-        try {
-            do {
-                line = br.readLine();
+        do {
+            line = br.readLine();
 
-                if (!line.equalsIgnoreCase(symbol)) {
+            if (!line.equalsIgnoreCase(symbol)) {
 
-                    fw.write(line + "\n");
-                }
+                fw.write(line + "\n");
+            }
 
-            } while (!line.equalsIgnoreCase(symbol));
-        } finally {
+        } while (!line.equalsIgnoreCase(symbol));
 
-            br.close();
+        br.close();
 
-            fw.close();
-        }
+        fw.close();
+
         return line;
     }
 }

@@ -7,10 +7,15 @@ import java.io.*;
  */
 public class Demo {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
-        FileContentWriter fileContentWriter = new FileContentWriter();
+        try {
+            FileContentWriter fileContentWriter = new FileContentWriter();
 
-        fileContentWriter.writeContentToFile("file.txt", "!");
+            fileContentWriter.writeContentToFile("file.txt", "!");
+        } catch (IOException ex) {
+
+            System.out.println("Cannot write content to file.");
+        }
     }
 }
