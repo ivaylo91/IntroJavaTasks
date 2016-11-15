@@ -9,17 +9,11 @@ public class App {
 
     public static void main(String[] args) {
 
-        File source = new File("file.txt");
-        File dest = new File("file1.txt");
-
-        TransferObject transfer = new TransferObject();
-
         try {
-            InputStream in = new FileInputStream(source);
 
-            OutputStream out = new FileOutputStream(dest);
+            TransferObject transfer = new TransferObject();
 
-            transfer.copyStream(in, out, 100, 50);
+            System.out.println("Successful transfer " + transfer.copyStream("file.txt", "file1.txt", 100, 50) + " bytes");
 
         } catch (IOException ex) {
 

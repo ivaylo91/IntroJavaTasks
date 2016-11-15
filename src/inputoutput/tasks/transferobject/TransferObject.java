@@ -10,9 +10,17 @@ import java.io.*;
  */
 public class TransferObject {
 
-    public int copyStream(InputStream in, OutputStream out, int limit, int offset) throws IOException {
+    public int copyStream(String sourceFile, String destinationFile, int limit, int offset) throws IOException {
 
         int counter = 0;
+
+        File read = new File(sourceFile);
+
+        File write = new File(destinationFile);
+
+        InputStream in = new FileInputStream(read);
+
+        OutputStream out = new FileOutputStream(write);
 
         in.skip(offset);
 
