@@ -5,7 +5,7 @@ import java.io.*;
 /**
  * @author Ivaylo Penev on 11/14/16.
  */
-public class Demo {
+public class App {
 
     public static void main(String[] args) {
 
