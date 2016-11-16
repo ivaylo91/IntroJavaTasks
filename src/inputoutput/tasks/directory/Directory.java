@@ -1,4 +1,4 @@
-package inputoutput.tasks.directory.browser;
+package inputoutput.tasks.directory;
 
 import java.io.File;
 
